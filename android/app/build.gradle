@@ -1,0 +1,17 @@
+def flutterRoot = localProperties.getProperty('flutter.sdk')
+
+apply plugin: 'com.android.application'
+apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
+
+android {
+    namespace "com.shofyou.app"
+    compileSdkVersion 34
+
+    defaultConfig {
+        applicationId "com.shofyou.app"
+        minSdkVersion 21
+        targetSdkVersion 34
+        versionCode 1
+        versionName "1.0"
+    }
+}
