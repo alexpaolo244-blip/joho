@@ -1,0 +1,16 @@
+name: shofyou_app
+description: Shofyou Social Media App
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.4.2
+  url_launcher: ^6.2.5
+
+flutter:
+  uses-material-design: true
